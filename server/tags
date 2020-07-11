@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ball	server.c	/^struct Bpoint ball;            \/\/球的位置$/;"	v	typeref:struct:Bpoint
+ball_status	server.c	/^struct BallStatus ball_status; \/\/球的状态$/;"	v	typeref:struct:BallStatus
+bepollfd	server.c	/^int repollfd, bepollfd;$/;"	v
+bteam	server.c	/^struct User *rteam, *bteam;$/;"	v	typeref:struct:
+conf	server.c	/^char *conf = ".\/soccer.conf";$/;"	v
+court	server.c	/^struct Map court;              \/\/足球场正式场地$/;"	v	typeref:struct:Map
+main	server.c	/^int main(int argc, char **argv)$/;"	f
+repollfd	server.c	/^int repollfd, bepollfd;$/;"	v
+rteam	server.c	/^struct User *rteam, *bteam;$/;"	v	typeref:struct:User
+score	server.c	/^struct Score score;            \/\/比分$/;"	v	typeref:struct:Score
